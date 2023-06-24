@@ -21,7 +21,7 @@ public class C01_Faker extends TestBase {
        // isim kutusunu locate ediniz
         WebElement isimKutusu = driver.findElement(By.xpath("(//*[@class='_5dbb'])[1]"));
 
-       // Geriye kalan alanlari TAB ile dolasarak faker bilgilerle formu doldurun
+       // geriye kalan alanlari TAB ile dolasarak faker bilgilerle formu doldurun
 
         Faker faker = new Faker();
 
